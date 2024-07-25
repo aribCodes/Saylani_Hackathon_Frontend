@@ -1,0 +1,42 @@
+.mainContainer{
+    background-image: linear-gradient(rgba(223, 223, 223, 0.5), rgba(255, 255, 255, 0.5)),url("../../assets/images/registrationFormBcg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width:100vw;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* color: rgb(255, 255, 255); */
+}
+.mainContainerHeader{
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("../../../assets/images/registrationFormBcg.jpg"); */
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saylaniLogo{
+    background-image: url("../../assets/images/saylaniOfficialLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 230px;
+    height: 60px;
+    margin-top: 10px;
+}
+.regitrationContainer .switch button{
+    border: 1px solid grey;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+    height: 50px;
+    margin: 0px 4px 0px 4px;
+    font-size: medium;
+}
+.regitrationContainer .switch .active{
+    background:rgba(139, 185, 160, 0.349);
+}
+.regitrationContainer .switch .disable{
+    background:none;
+}

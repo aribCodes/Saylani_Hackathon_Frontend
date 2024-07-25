@@ -1,0 +1,178 @@
+.container {
+  margin: 0px;
+  padding: 0;
+  /* width:100vw; */
+  /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between; */
+}
+
+.subContainer {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dotted black;
+}
+
+.frontPage {
+  background-image: url("../../assets/images/backgroundImage.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 30px 20px 30px;
+  border: 2px solid black;
+  width: 300px;
+  height: 370px;
+}
+
+.welfareLogo {
+  width: 38%;
+  margin-bottom: -40px;
+}
+
+.organizationName {
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  color: rgb(80, 124, 219);
+  background: rgba(202, 202, 202, 0.404);
+  width: 175px;
+  padding: 6px;
+  margin-bottom: 4px;
+}
+.organizationName::after {
+  position: absolute;
+  width: 33px;
+  height: 20px;
+  content: "";
+  right: 0;
+  top: 0;
+  border-right: 3px solid rgba(80, 219, 110, 0.774);
+  border-top: 3px solid rgba(80, 219, 110, 0.774);
+}
+.organizationName::before {
+  position: absolute;
+  width: 33px;
+  height: 20px;
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-left: 3px solid rgba(80, 219, 110, 0.774);
+  border-bottom: 3px solid rgba(80, 219, 110, 0.774);
+}
+.profileImg {
+  border: 3px solid rgba(91, 128, 133, 0.308);
+  width: 100px;
+  min-height: 100px;
+  object-fit: contain;
+  margin: 0px;
+}
+
+.applicantName {
+  font-size: 20px;
+  width: 290px;
+  text-align: center;
+  margin-top: 7px;
+  font-weight: 500;
+}
+
+.courseName {
+  font-size: 16px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+.rollNo {
+  font-size: 20px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+.cardBack {
+  margin: 20px 30px 20px 30px;
+  border: 2px solid black;
+  padding: 22px 20px 10px 20px;
+  box-sizing: border-box;
+  background-image: url("../../assets/images/backgroundImage.png");
+  width: 300px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  font-size: 13px;
+}
+
+.cardBack .data {
+  margin: 5px;
+}
+
+.cardBack p {
+  font-weight: 500;
+}
+
+.cardBack .qrCode {
+  margin-top: 8px;
+  background: rgba(231, 227, 227, 0.644);
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.cardBack .info {
+  border-bottom: 1px solid black;
+}
+
+.cardBack .warningNote {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.instructions {
+  margin-top: 20px;
+  width: 80%;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background: lightblue; */
+}
+
+.instructionHeading {
+  margin-left: 20px;
+  color: red;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+ol li {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.footerPart {
+  /* background: lightblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.footerPart img {
+  object-fit: contain;
+  width: 300px;
+}
+.footerPart p {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.footerPart a {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
